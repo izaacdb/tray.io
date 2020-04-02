@@ -1,4 +1,8 @@
 import React from 'react'
+import styled from 'styled-components'
+
+import Visualiser from '../components/visualiser'
+import Header from '../components/header'
 
 interface Props {
   'data-tray'?: {
@@ -14,6 +18,18 @@ interface Props {
   }
 }
 
-const Home = ({ 'data-tray': dataTray = null }) => <div>hello {JSON.stringify(dataTray)}</div>
+const Container = styled.div`
+  margin: 0 auto;
+  width: 1000px;
+`
+
+const Home = ({ 'data-tray': dataTray = null }) => (
+  <Container>
+    <Header />
+    <Visualiser />
+    <br />
+    hello {JSON.stringify(dataTray)}
+  </Container>
+)
 
 export default Home
