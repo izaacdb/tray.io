@@ -10,7 +10,9 @@ This should all be nicely extendable as there is an `./src/components/interfaces
 ---
 #### How to run
 
-I built this on `create-react-app` so to run a `yarn install` then a run `yarn start`. Alternatively do a `yarn install && yarn build && cd build && npx http-server .` to run it in production mode.
+I built this on `create-react-app` so run a `yarn install` then a run `yarn start`.
+
+Alternatively do a `yarn install && yarn build && cd build && npx http-server .` to run it in production mode.
 
 ---
 #### Notes
