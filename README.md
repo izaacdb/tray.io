@@ -14,11 +14,11 @@ Best place to start looking at the code base is `./src/pages/home`
 
 ---
 #### Notes
-Libraries I used include date-fns for their format function, react-dnd for all of the dragging parts and `styled-components` for the styling. I use `prettier` and `eslint` to keep everything tidy, `jest` and `react-testing-library` to write tests.
+Libraries I used include `date-fns` for their format function, `react-dnd` for all of the dragging parts and `styled-components` for the styling. I use `prettier` and `eslint` to keep everything tidy, `jest` and `react-testing-library` to write tests.
 
 This should all be nicely extendable as there is an `./src/components/interfaces` file with full definitions of everything.
 
-I used TypeScript instead of JS as you listed it in the job advert and I figured you'd want to see some decent code. There are some data manipulations which make it very useful here.
+I used `TypeScript` instead of `JS` as you listed it in the job advert and I figured you'd want to see some decent code. There are some data manipulations which make it very useful here.
 
 I called the data received from your json file `events` as this would allow us to set a type to determine if its specifically a connector, a notification, or something else later on.
 
