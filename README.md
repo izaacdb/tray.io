@@ -24,4 +24,4 @@ Best entry point is `./src/pages/home`
 
 I'm Izaac - a full stack developer with about 10 years experience. I've done many roles as a frontend dev with angular and react.
 
-My CV is a available here: https://drive.google.com/file/d/1ewpN2S5RZJKrsP3s9u4z_QW8hU_46cEx/view?usp=sharing
+My CV is available here: https://drive.google.com/file/d/1ewpN2S5RZJKrsP3s9u4z_QW8hU_46cEx/view?usp=sharing
