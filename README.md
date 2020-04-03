@@ -1,7 +1,9 @@
 Tray.io
 ------
 
-It should deliver to the spec. I used TypeScript instead of JS as you listed it in the job advert and I figured you'd want to see some decent code. There are some data manipulations which make it very useful here.
+![preview](preview.png)
+
+I used TypeScript instead of JS as you listed it in the job advert and I figured you'd want to see some decent code. There are some data manipulations which make it very useful here.
 
 Other libraries I used include date-fns for their format function, react-dnd for all of the dragging parts and `styled-components` for the styling. I use `prettier` and `eslint` to keep everything tidy, `jest` and `react-testing-library` to write tests.
 
