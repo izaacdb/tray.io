@@ -14,7 +14,7 @@ const Header = () => {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setDate(format(Date.now(), 'H:mm:ss.S'))
+      setDate(format(Date.now(), 'HH:mm:ss.S'))
     }, 100)
 
     return () => clearInterval(timer)
@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <Container>
-      <span>&lt;You&gt;'s visualiser</span>
+      <span>Izaac's visualiser</span>
       <span>{date}⏱</span>
     </Container>
   )

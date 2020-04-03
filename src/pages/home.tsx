@@ -1,21 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Visualiser from '../components/visualiser'
+
+import { DndProvider } from 'react-dnd'
+import Backend from 'react-dnd-html5-backend'
+
+import Connectors from '../components/connectors'
 import Header from '../components/header'
+import Visualiser from '../components/visualiser'
+
+import { DataTray } from '../components/interfaces'
 
 interface Props {
-  'data-tray'?: {
-    coords: {
-      x: number
-      y: number
-    }
-    connector: {
-      name: string
-      iconURL: string
-    }
-    trayTrollSays?: string // This event brought to you by... Friday Night Deployment!
-  }
+  'data-tray'?: DataTray
 }
 
 const Container = styled.div`
@@ -23,12 +20,15 @@ const Container = styled.div`
   width: 1000px;
 `
 
-const Home = ({ 'data-tray': dataTray = null }) => (
+const Home: React.FC<Props> = ({ 'data-tray': dataTray = null }) => (
   <Container>
     <Header />
-    <Visualiser />
-    <br />
-    hello {JSON.stringify(dataTray)}
+    <DndProvider backend={Backend}>
+      <Visualiser dataTray={dataTray} dropEffect="move" />
+      <br />
+      <Connectors dropEffect="copy" />
+    </DndProvider>
+    {/*<Logs dataTray={dataTray} />*/}
   </Container>
 )
 
