@@ -1,14 +1,19 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { format } from 'date-fns'
+import { lengths } from './constants'
 
 const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0 10px 10px;
+  padding: ${lengths.padding}px;
 `
 
+/**
+ * This guy is in charge of updating the clock every 100ms, uses date-fns because its a very small import
+ * @constructor
+ */
 const Header = () => {
   const [date, setDate] = useState(format(Date.now(), 'hh:mm:ss.S'))
 

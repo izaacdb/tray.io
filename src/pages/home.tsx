@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-
 import { DndProvider } from 'react-dnd'
 import Backend from 'react-dnd-html5-backend'
 
@@ -20,6 +19,12 @@ const Container = styled.div`
   width: 1000px;
 `
 
+/**
+ * For now, only the home page will ever load. Can use something like react router later.
+ * This renders the visualiser, connector and log components.
+ * @param dataTray
+ * @constructor
+ */
 const Home: React.FC<Props> = ({ 'data-tray': dataTray = null }) => (
   <Container>
     <Header />

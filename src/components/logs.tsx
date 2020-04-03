@@ -14,6 +14,11 @@ const Container = styled.pre`
   padding: 1.5rem;
 `
 
+/**
+ * Little function to read the data from the library
+ * @param dataTray
+ * @constructor
+ */
 const Logs: React.FC<Props> = ({ dataTray }) => {
   return <Container>{JSON.stringify(dataTray, null, 2)}</Container>
 }

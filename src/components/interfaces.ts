@@ -1,5 +1,5 @@
 export enum ItemTypes {
-  EVENT = 'event'
+  CONNECTOR = 'connector'
 }
 
 export interface DropResult {
