@@ -26,7 +26,7 @@ const H1 = styled.h1`
   margin: 0;
   font-size: 1.5rem;
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 4;
 `
 
 /**
