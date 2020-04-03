@@ -5,9 +5,11 @@ Tray.io
 
 *This took more like 6 hours, but I was enjoying it.*
 
-It should deliver to the spec. I used TypeScript as the job advert is for a senior TypeScript developer. There are some data manipulations which make it very useful here anyway.
+It should deliver to the spec. I used TypeScript as the job advert is for a senior TypeScript developer and I figured you'd want to see some decent code. There are some data manipulations which make it very useful here.
 
 Other libraries I used include date-fns for their format function, react-dnd for all of the dragging parts and `styled-components` for the styling. I use `prettier` and `eslint` to keep everything tidy, `jest` and `react-testing-library` to write tests.
+
+This should all be nicely extendable as there is an `./src/components/interfaces` file with full definitions of everything.
 
 ---
 #### How to run
