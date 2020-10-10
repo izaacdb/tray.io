@@ -4,7 +4,8 @@ Tray.io
 Passed technical test for Tray.io.
 
     “You’ll be building an event visualizer, handling events from several APIs.
-     Create an application which can handle multiple events, and supports drag and drop.”
+     Create an application which can handle multiple events supporting drag and drop.
+     Do not spend an time on styling!”
 
 <img src="preview.png" alt="preview" width=600/>
 
