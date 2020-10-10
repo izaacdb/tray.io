@@ -1,7 +1,7 @@
 Tray.io
 ------
 
-![preview](preview.png)
+<img src="preview.png" alt="preview" width=600/>
 
 ---
 #### How to run
